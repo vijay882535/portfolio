@@ -1,0 +1,315 @@
+.count-color
+{
+    border: 0px;    
+   
+    background-color:#13A367 ;
+}
+/* this is main box */
+
+.main
+{
+/* border: 1px blueviolet solid; */
+box-shadow: 5px 5px 8px;
+background-color: white;
+
+}
+/* this is navigation bar */
+
+nav{
+    display: flex;
+    justify-content: space-between;
+}
+.logo
+{
+    /* border: 1px red solid; */
+    width: 80px;
+    height: 80px;
+    border-radius: 100%;
+}
+.logo svg{
+
+}
+.box
+{
+    /* border: 1px red solid; */
+    height: 50px;
+    text-align: center;
+    
+}
+.box ol{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+    margin-left: 10px;
+    padding: 10px;
+}
+.box ol li{
+    list-style: none;
+    cursor: pointer;
+    
+}
+.box ol button
+{
+    background-color: white;
+    border-radius: 20px;
+    font-weight: 600;
+}
+
+/* this saction fr main page */
+
+.mainpage
+{
+    /* border: 1px blue solid; */
+    font-family: Cooper Black;
+
+}
+
+/* this is for welcome  word */
+.w
+{
+    /* border: 1px blue solid; */
+    width: fit-content;
+    border-radius:20cqb;
+    font-size: 13px;
+}
+.mainpage button
+{
+    background-color: #08f190;
+    border-radius: 10px;
+    height:25px;
+    padding: 1px;
+   
+} 
+
+/* this section for animation */
+.anim
+{
+    /* border: 1px red solid; */
+
+}
+.iam
+{
+    position: relative;
+}
+/* this section for deginer1 */
+.block-box
+{
+    width: 250px;
+    height: 30px;
+    overflow: hidden;
+    /* margin-left: 30px; */
+    /* border: #13A367 1px solid; */
+    color: aqua;
+}
+.deginer{
+    /* border: 1px red solid; */
+    width: max-content;
+    animation-name:move-left ;
+    animation-duration: 15s;
+    animation-iteration-count: infinite;
+    /* animation-delay: 3; */
+    animation-direction: normal;
+    animation-fill-mode: forwards;
+    animation-delay: 0s;
+    text-align: center;`
+    
+    
+    
+    
+}
+@keyframes move-left
+{
+    0%{
+       margin-top:-5px;
+    }
+    25%
+    {
+        margin-top:-10px;
+    }
+    50%
+    {
+        margin-top:-20px;
+    }
+    60%{
+        margin-top:-30px;
+    }
+    65%{
+        margin-top:-40px;
+    }
+    70%{
+        margin-top:-50px;
+    }
+    75%{
+        margin-top:-60px;
+    }
+    80%{
+        margin-top:-70px;
+    }
+    85%{
+        margin-top:-80px;
+    }
+    90%{
+        margin-top:-90px;
+    }
+    92%{
+        margin-top:-100px;
+    }
+    94%{
+        margin-top:-120px;
+    }
+    95%{
+        margin-top:-140px;
+    }
+    96%{
+        margin-top:-160px;
+    }
+    100%{
+        margin-top:-200px;
+    }
+}
+/* end of animation */
+
+
+
+
+
+/* this section for box setup */
+
+.box-setup
+{
+    /* border: 1px gray solid; */
+    margin: auto;
+    margin-top: 80px;
+}
+.box-1{
+    width: 200px;
+    border: 0;
+    border-right: 1px #1D9942 solid;
+    font-family:Arial Black;
+    
+}
+.box-2{
+    width: 200px;
+    border: 0;
+    border-right: 1px #1D9942 solid;
+    font-family:Arial Black;
+    
+}
+.box-3{
+    width: 200px;
+    border: 0;
+    /* border-right: 1px black solid; */
+    font-family:Arial Black;
+    
+}
+
+/* this area for middle */
+
+.middile
+{
+    /* border: 1px rebeccapurple solid; */
+    margin-top: 100px;
+}
+ 
+
+.submiddle
+{
+
+    background-color:#FCFCFC;
+}
+.sub-middle
+{
+    background-color:#FCFCFC;
+
+}
+.middlie3
+{
+    height: 100px;
+    margin-top: 65px;
+    background-color:#FCFCFC;
+    margin-right: 20px;
+}
+/* <!-- this section for contact --> */
+.contact-4
+{
+    /* border: #08f190 1px solid; */
+}
+.min-box-contact{
+    /* border: 1px red solid; */
+}
+.mini-box-1
+{
+    box-shadow: 1px 1px 1px ;
+    
+}
+.call
+{
+    width: 35px;
+    height:30px;
+    padding-left: 9px;
+    border: 1px green solid;
+    border-radius: 5px;
+    background-color:#0ecb47;
+}
+.mini-box-2
+{
+     box-shadow: 1px 1px 1px ;
+}
+.call-1
+{
+    width: 35px;
+    height:30px;
+    padding-left: 9px;
+    border: 1px green solid;
+    border-radius: 5px;
+    background-color:#0ecb47;
+}
+.mini-box-3
+{
+    box-shadow: 1px 1px 1px ;  
+}
+.call-2
+{
+    width: 35px;
+    height:30px;
+    padding-left: 9px;
+    border: 1px green solid;
+    border-radius: 5px;
+    background-color:#0ecb47;
+}
+/* this section for input */
+.min-box-contact-1{
+    /* border: 1px blue solid; */
+}
+.input-1
+{
+    /* border: 1px yellow solid; */
+}
+.min-box-contact-4{
+    /* border: 1px rgb(219, 106, 7) solid; */
+    width: fit-content;
+    margin-left: 390px;
+    
+}
+.min-box-contact-4 button
+{
+    background-color: #0ecb47;
+    border-radius: 10px;
+}
+
+/* this section for fotter */
+.footer-box
+{
+    /* border: 1px red solid; */
+    height: 60px;
+   padding-top: 20px;
+   padding-right: 10px;
+   padding-left: 10px;
+   box-shadow: 1px 1px 1px 1px ;
+}
+
+@media (max-width:500px){
+    .small-boxes{
+        width: 100% !important;
+    }
+}
